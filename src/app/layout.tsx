@@ -2,6 +2,7 @@ import PrimeProvider from "./provider/PrimeProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "primereact/resources/themes/md-light-indigo/theme.css";
+import "primeicons/primeicons.css";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

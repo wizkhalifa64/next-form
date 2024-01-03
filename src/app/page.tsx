@@ -1,3 +1,9 @@
+import ChatForm from "@/components/chat/ChatForm";
+
 export default function Home() {
-  return <main>hi</main>;
+  return (
+    <main>
+      <ChatForm />
+    </main>
+  );
 }
